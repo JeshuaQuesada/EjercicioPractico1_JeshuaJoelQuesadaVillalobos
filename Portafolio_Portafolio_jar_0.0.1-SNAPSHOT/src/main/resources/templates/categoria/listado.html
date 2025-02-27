@@ -6,7 +6,16 @@
     </head>
     <body>
         <header th:replace="~{layout/plantilla :: header}"/>
-
+        <div> 
+            <h1 style="text-align: center" ><span style="color:orange"> Farmacia la Salvación</span></h1>
+            <div style="text-align: center">
+                <p>En esta sección podra ver si algún producto se encuentra en stock.</p>
+                <p>También podra agregar, modificar y eliminar un producto si asi lo desea.</p>
+                <p>----------------------------------------------------------------------------------------------</p>
+                <p>----------------------------------------------------------------------------------------------</p>
+                <p>----------------------------------------------------------------------------------------------</p>
+            </div>
+        </div>
         <section th:replace="~{categoria/fragmento :: botonesAgregar}"/>
         <section th:replace="~{categoria/fragmento :: agregarCategoria}"/> 
         <section th:replace="~{categoria/fragmento :: listadoCategorias}"/>
